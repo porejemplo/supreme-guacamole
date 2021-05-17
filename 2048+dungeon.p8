@@ -3,6 +3,12 @@ version 27
 __lua__
 
 --TODO
+--	Implementar UI vidas
+--	Habrir los cofres ( romper candado, habrir cofre y coger objeto)
+--	Enemigos
+--		No se atacan entre ellos tienen 1 vida
+--		Slime vida 1
+--		Bomba vida 1 si te ataca explota si te tiene cerca se enciende y explota elsiguiente turno.
 --	Guardar en que poscicion muere para que al ejecutarse el moviemeitno tenga sentido.
 --	los enemigos tmabien pueden cojer los objetos.
 --	Mostrar los estados (envenenado, debil, ...) cambiando la coplor del enemigo.
@@ -16,6 +22,7 @@ __lua__
 
 --INFO
 --	tipos fichas 0=interaccion con jugador y entre ell 1=enemigo 2=pickup
+--	Fases de Juego 0=input del juegador 1=movimiento de fichas
 
 function _init()
 	ta_movimiento = 20
