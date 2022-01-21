@@ -1,2 +1,2 @@
 # supreme-guacamole
-Sincronizacion de pico-8
+Juego parecido al 2048 mezclado con un dungeon crawler
